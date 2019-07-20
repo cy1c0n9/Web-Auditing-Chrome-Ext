@@ -1,5 +1,7 @@
 > The goal of this project is to build an extension for the Chrome browser that passively audits the security posture of the websites that the user of the extension is visiting. Assume that the tool is to be used on non-malicious websites, currently not under attack or compromised. We want to report security misconfigurations, or failure to use best security practices.
 
+***the initial commit includes typos = =! gitlab***
+
 - The extension trys to analysis the commonly vulnerable setting of servers: lack of use of security-relevant headers, including:
     - strict-transport-security
     - x-xss-protection
