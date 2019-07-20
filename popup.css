@@ -1,0 +1,49 @@
+h2 {
+	padding-right: 10px;
+}
+
+.L1H{
+	background-color: #ceff99;
+}
+
+.L2H{
+	background-color: #ffff99;
+}
+
+.L3H{
+	background-color: #ffcc99;
+}
+
+.L1P{
+	background-color: #e6ffcc;
+}
+
+.L2P{
+	background-color: #ffffcc;
+}
+
+.L3P{
+	background-color: #ffe6cc
+}
+
+h1 {
+	text-align: center;
+	background-color: #333;
+	color: #FFF;
+	font-family: "Arial";
+	padding: 20px;
+	margin: 0px;
+}
+
+h2 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 0px;
+	font-size: 14px;
+}
+
+p {
+	font-family: "Arial";
+	margin: 0px;
+	padding: 5px;
+}

@@ -1,0 +1,22 @@
+securityHeaders : lack of use of security-relevant headers
+    notHSTS     : lack of use of strict-transport-security in following hosts
+                  recommend implementing if possible
+                  Level 3
+    shortHSTS   : the max-age of strict-transport-security is too short
+                  recommend make it longer
+                  Level 2
+    notXSSPro   : lack of use or disabled x-xss-protection in following hosts
+                  recommend enabled
+                  Level 3
+    notCSP      : lack of use of content-security-policy in following hosts
+                  recommend implementing if possible
+                  Level 3
+    notXFO      : lack of use of x-frame-options in following hosts
+                  recommend implementing if possible
+                  Level 3
+    badXFO      : using allow-from parameter in x-frame-options may be less secure
+                  recommend using deny or sameorigin
+                  Level 1
+    notXCTO     : lack of use of x-content-type-options in following hosts
+                  recommend implementing if possible
+                  Level 3
